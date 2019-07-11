@@ -1,7 +1,7 @@
 div {
     text-align:center;
     background-color:white ;}
-body {background-image:url(../images/circuit.png)}
+body {background-image:url(circuit.png)}
 
 header {background-color:teal;
     height:87px;
@@ -14,19 +14,22 @@ header {background-color:teal;
     color:white;
     padding:20px;
     text-align:center;
-    }
+    width:250px;}
 
 h1 { color:teal;
     background-color:white;
     margin-left:10px;
     margin-right:85%;
-    font-size:36px;}
+    font-size:36px;
+    width:20%;
+    }
 
 
 
 aside {max-width:960px;
        margin:auto;
-       background-color:white;}
+       background-color:white;
+       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
 
 section 
     {width: 65%;
@@ -43,10 +46,19 @@ nav {border-bottom-style:solid;
     padding:20px;
     margin-top:69px;
 }
+a{  border: 2px solid teal;
+    background-color:white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    }
 
 li {display:inline;
 }
-p {text-align:justify;}
+p {text-align:justify;
+    margin:auto;
+    clear:left;}
 
 img {float:left;
      }
@@ -54,4 +66,10 @@ img {float:left;
 footer {background-color:gray;
         text-align:center;
         margin-bottom:0;
-        position:relative
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-top:12pt;
+        border-top-style:solid;
+        border-color:teal;}
