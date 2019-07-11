@@ -22,6 +22,7 @@ h1 { color:teal;
     margin-right:85%;
     font-size:36px;
     width:20%;
+    padding-top:20px;
     }
 
 
@@ -32,11 +33,12 @@ aside {max-width:960px;
        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
 
 section 
-    {width: 65%;
+    {
+        /* width: 65%; */
         padding: 20px;
         top: 25px;
         overflow: auto;
-        margin:auto;
+        
         
         content: 960px;
         background-color:white;}
@@ -46,21 +48,37 @@ nav {border-bottom-style:solid;
     padding:20px;
     margin-top:69px;
 }
-a{  border: 2px solid teal;
-    background-color:white;
+
+a{  border-left: 2px solid teal;
+    border-right:2px solid teal;
+    background-color:url(circuit.png);
     color: black;
     padding: 14px 28px;
     font-size: 16px;
     cursor: pointer;
+    text-decoration:none;
     }
+.porfolio {
+    background-color:url(circuit.png);
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;}
+
+a:hover {background-color:teal;
+          color:white;
+          opacity:1;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
 
 li {display:inline;
 }
+hr {}
 p {text-align:justify;
     margin:auto;
-    clear:left;}
+    }
 
 img {float:left;
+     margin-right:10px;
      }
 
 footer {background-color:gray;
