@@ -1,34 +1,57 @@
-body {background-color: #3eccc5;
-    background-image:url(../images/circuit.png);
-	width: 65%;
-	padding: 20px;
-	top: 25px;
-    overflow: auto;
-    margin:auto;
-    content: 960px;}
+div {
+    text-align:center;
+    background-color:white ;}
+body {background-image:url(../images/circuit.png)}
 
 header {background-color:teal;
-        width:100%;
-        height:87px;
-        float:left;
-        margin-top:5px;
-        margin-left:100px
-        margin-right:800px;
-        font-size:48px;}
+    height:87px;
+    float:left;
+    top:0;
+    left:100px;
+    margin-left:4%;
+    font-size:20pt;
+    position:absolute;
+    color:white;
+    padding:20px;
+    text-align:center;
+    }
+
+h1 { color:teal;
+    background-color:white;
+    margin-left:10px;
+    margin-right:85%;
+    font-size:36px;}
+
+
+
+aside {max-width:960px;
+       margin:auto;
+       background-color:white;}
+
+section 
+    {width: 65%;
+        padding: 20px;
+        top: 25px;
+        overflow: auto;
+        margin:auto;
+        
+        content: 960px;
+        background-color:white;}
+    
+nav {border-bottom-style:solid;
+    text-align:end;
+    padding:20px;
+    margin-top:69px;
+}
+
+li {display:inline;
+}
+p {text-align:justify;}
+
 img {float:left;
-    size:100px; }
+     }
 
-h1 {font-family: 'Georgia';
-        float:left;
-        color: teal;
-        font-weight: bold;
-        }
-
-p { color: #777777;
-            overflow:visible;}
-div{ max-width: 960px;
-            margin:auto;
-            background-color:white;}
-footer {background-color: #666666;
-    margin:0px;
-    text-align:center}
+footer {background-color:gray;
+        text-align:center;
+        margin-bottom:0;
+        position:relative
